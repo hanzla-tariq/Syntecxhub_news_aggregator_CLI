@@ -3,7 +3,7 @@ import argparse
 import json
 import pandas as pd
 
-API_KEY = "0e5aff6120d44951b96fc20f52cdead8"  # put your NewsAPI key here
+API_KEY = "Your_API_Key_here"  # put your NewsAPI key here
 
 def fetch_news(keyword):
     url = f"https://newsapi.org/v2/everything?q={keyword}&apiKey={API_KEY}"
